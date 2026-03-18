@@ -1,0 +1,12 @@
+scrape_configs:
+  - job_name: "rubert_pytorch"
+    static_configs:
+      - targets: ["host.docker.internal:8000"]  # или localhost, если без Docker
+
+  - job_name: "rubert_onnx"
+    static_configs:
+      - targets: ["host.docker.internal:8001"]
+
+  - job_name: "rubert_batching"
+    static_configs:
+      - targets: ["host.docker.internal:8002"]
