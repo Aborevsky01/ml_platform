@@ -14,7 +14,7 @@ from prometheus_client import make_asgi_app, Summary, Counter
 
 MAX_BATCH_SIZE = 32
 MAX_WAIT_MS = 20
-NUM_WORKERS = 2  # второй воркер тут
+NUM_WORKERS = 2  
 
 app = FastAPI()
 
