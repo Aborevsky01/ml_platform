@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+transformers[sentencepiece]
+sentence-transformers
+torch
+prometheus-client
+psutil
+requests
+optimum[onnxruntime]
